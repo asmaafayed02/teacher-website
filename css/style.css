@@ -1,0 +1,87 @@
+/* global rules */
+* {
+  font-family: "Almarai";
+}
+.btn-main {
+  background: #4eaabf;
+  color: #fff;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+/* start header */
+header {
+  min-height: 100vh;
+  background: linear-gradient(246.56deg, #2c1f4a 2.63%, #4eaabf 98.94%);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  color: #fff;
+}
+/* start Navbar */
+.navbar {
+  min-height: 173px;
+}
+.navbar #teacher-logo {
+  /* width: 190px; */
+  min-height: 173px;
+  margin-right: -44px;
+}
+.navbar .btn-main {
+  width: 262px;
+  height: 62px;
+  background: #4eaabf;
+  color: #fff;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.navbar-nav > li > .dropdown-menu {
+  background: #4eaabf;
+  border-radius: 10px;
+  width: 447px;
+}
+
+ .navbar-nav > li > .dropdown-menu a{   color: #fff;  }
+ .navbar-nav > li > .dropdown-menu a:hover{   color: #000;  }
+
+ @media (max-width: 576px) {
+    .navbar-nav > li > .dropdown-menu {
+  width: 250px;
+}
+}
+/* end Navbar */
+header .header-content {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .landing h1 {
+  font-size: 40px;
+  line-height: 45px;
+}
+header .landing p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+}
+header .landing .btn-main {
+  width: 219px;
+  height: 77px;
+}
+header .landing .landing-img {
+  width: 418px;
+  height: 384px;
+}
+@media (max-width: 576px) {
+  header .landing .landing-img {
+    width: 300px;
+    height: 300px;
+  }
+}
+header .landing .btn-search {
+  width: 192px;
+  height: 73px;
+}
+header .landing .form-control {
+  border-radius: 20px;
+}
